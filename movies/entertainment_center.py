@@ -23,3 +23,9 @@ godfather = media.Movie("The Godfather",
 
 movies = [toy_story, avatar, field_of_dreams, godfather]
 fresh_tomatoes.open_movies_page(movies)
+
+print(media.Movie.VALID_RATINGS)
+
+# print(media.Movie.__doc__) <-- documentation
+# print(media.Movie.__name__) <-- name of the class in question
+# print(media.Movie.__module__) <-- name of the module that contains the class
